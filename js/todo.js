@@ -36,13 +36,31 @@ form.addEventListener('submit', (event) => {
     msg.value = "";
 
     console.log(todos);
+    
+    viewTodo(todos);
+
 
 });
 
+/**1
+ * Etape #2
+ * 1. Créer un fichier "fonctions.js"
+ * 2. Créer une fonction permettant d'afficher les éléments du 
+ *    tableau dans la "ul" du fichier HTML en respectant le code
+ *    HTML fourni plus haut
+ */
+
 /**
- * etape 2
- * 1. Créer un fichier "fonction.js"
- * 2. Créer une fonction permettant d'afficher les éléments du
- * tableau dans la "ul" du fichier HTML en respectant le code 
+ * Etape #3
+ * Appeler la fonction précédente dans l'évènement du formulaire
+ * après avoir ajouté la valeur du champs dans le tableau "todos"
+ */
+
+/**
+ * Supprimer un élément de la liste
+ * 
+ * 1. Ecouter les images représentant la croix
+ * 2. 
+ * 2.1 Remonter d'un noeud dans le DOM et supprimer l'élément 
  */
 
